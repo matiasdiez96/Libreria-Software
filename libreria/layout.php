@@ -6,6 +6,11 @@ ALTA, BAJA Y MANTENIMIENTO DE LIBROS
     <head>
         <title>UNLPam - Biblioteca</title>
         <style>
+            <!--
+               .menu se utilizó para el logo UNLPam y su menu debajo
+               .titulo se utilizó para los titulos debajo del menu con fines de ayudar al usuario a identificar dónde se encuentra
+               .container/.co-25/.col-75/.row y demás los utiliza Bootstrap
+            -->
             .menu {
                 width: 96%;
                 margin: auto;
@@ -97,6 +102,9 @@ ALTA, BAJA Y MANTENIMIENTO DE LIBROS
             </a>
         </div>
         <div class="menu">
+            <!--
+                El menu todavía no es la version final se pueden realizar cambios para mejorar la interacción del usuario con el mismo
+            -->
             <nav class="navbar navbar-expand-sm navbar-dark justify-content-center" style="background: #848484;">
                 <ul class="navbar-nav" style="margin: -5px;">
                     <!-- Dropdown -->
