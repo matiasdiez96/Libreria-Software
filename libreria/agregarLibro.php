@@ -8,6 +8,9 @@
         </div>
         <form>
             <div class="container">
+                <!--
+                    Ingreso provisorio de los posibles datos necesarios para agregar un libro
+                -->
                 <form action="/action_page.php">
                 <div class="row">
                   <div class="col-25">
