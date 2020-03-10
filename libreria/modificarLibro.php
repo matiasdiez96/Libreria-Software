@@ -17,9 +17,9 @@
 	        </form>
         </div>
         <form>
-	<!--
-		Una vez encontrado el libro, por ajax, se desplegarian los input que se muestran debajo pre-cargados
-	-->
+        	<!--
+				Una vez encontrado el libro, por ajax, se desplegarian los input que se muestran debajo pre-cargados
+			-->
             <div class="container">
                 <form action="/action_page.php">
                 <div class="row">
@@ -76,10 +76,10 @@
                 </div>
                 <div class="row">
                   <div class="col-25">
-                    <label for="departamento">Departamento</label>
+                    <label for="Deposito">Deposito</label>
                   </div>
                   <div class="col-75">
-                    <input type="text" id="departamento" name="departamento">
+                    <input type="text" id="deposito" name="deposito">
                   </div>
                 </div>
                 <div class="row">

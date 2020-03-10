@@ -7,10 +7,10 @@
         </div>
         <div class="container" style="margin-top: 5px">
 	        <form>
-			<!--
-				Al buscar se debe abrir un modal enseñando los datos encontrados (o no) pero ocurre un error 
-				debido al form y se cierra por lo que aún no se sabe si será el diseño final
-			-->
+	        	<!--
+					Al buscar se debe abrir un modal enseñando los datos encontrados (o no) pero ocurre un error 
+					debido al form y se cierra por lo que aún no se sabe si será el diseño final
+				-->
 	        	<div class="input-group mb-3">
 				  <input type="text" class="form-control" placeholder="Ingrese código del libro..">
 				  <div class="input-group-append">
@@ -21,10 +21,10 @@
         </div>
 
         <div class="container">
-		<!--
-			Dejo otro button para enseñar lo que el usuario veria al encontrar el libro
-		-->
-        	<button class="btn btn-success" type="submit" data-toggle="modal" data-target="#myModal">Modal resultado busqueda</button>
+        	<!--
+				Dejo otro button para enseñar lo que el usuario veria al encontrar el libro
+			-->
+        	<button class="btn btn-success" type="submit" data-toggle="modal" data-target="#myModal">Prueba resutado busqueda</button>
 		  <!-- The Modal -->
 		  <div class="modal fade" id="myModal">
 		    <div class="modal-dialog modal-dialog-centered">
