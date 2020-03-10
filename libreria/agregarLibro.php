@@ -74,10 +74,10 @@
                 </div>
                 <div class="row">
                   <div class="col-25">
-                    <label for="departamento">Departamento</label>
+                    <label for="deposito">Deposito</label>
                   </div>
                   <div class="col-75">
-                    <input type="text" id="departamento" name="departamento" placeholder="Departamento..">
+                    <input type="text" id="deposito" name="deposito" placeholder="En deposito..">
                   </div>
                 </div>
                 <div class="row">
