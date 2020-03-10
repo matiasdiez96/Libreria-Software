@@ -17,7 +17,7 @@
         </div>
 
         <div class="container">
-        	<button class="btn btn-success" type="submit" data-toggle="modal" data-target="#myModal">Modal prueba</button>
+        	<button class="btn btn-success" type="submit" data-toggle="modal" data-target="#myModal">Modal resultado busqueda</button>
 		  <!-- The Modal -->
 		  <div class="modal fade" id="myModal">
 		    <div class="modal-dialog modal-dialog-centered">
