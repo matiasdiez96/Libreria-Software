@@ -17,6 +17,9 @@
 	        </form>
         </div>
         <form>
+	<!--
+		Una vez encontrado el libro, por ajax, se desplegarian los input que se muestran debajo pre-cargados
+	-->
             <div class="container">
                 <form action="/action_page.php">
                 <div class="row">
