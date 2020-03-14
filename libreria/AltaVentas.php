@@ -77,7 +77,7 @@
 	  		</div>
   		</div>
   		<div align="right" style="margin-top: 10px;">
-            <input type="submit" value="Confirmar venta" style="background: #e86a04;" >
+            <input type="submit" value="Continuar" style="background: #e86a04;" >
         </div>
         <br><br>
 	</div>
