@@ -1,9 +1,8 @@
-<?php
-    include("layout.php");
-?>
+@include('layout')
+
         <div class="titulo">
             <h1>Borrar libro</h1>
-            <img src="imagenes/book-remove.png" alt="logo">
+            <img src="{{asset('storage/book-remove.png')}}" alt="logo">
         </div>
         <div class="container" style="margin-top: 5px">
 	        <form>
@@ -14,17 +13,72 @@
 	        	<div class="input-group mb-3">
 				  <input type="text" class="form-control" placeholder="Ingrese código del libro..">
 				  <div class="input-group-append">
-				    <button class="btn btn-success" type="submit" data-toggle="modal" data-target="#myModal">Buscar</button>
+				    <button class="btn btn-success" type="submit">Buscar</button>
 				  </div>
 				</div>
 	        </form>
         </div>
 
+        <div id="ele-1" name="ele-1" style="display: none;">
+        	<div class="titulo">
+	        	<h1>¿Está seguro de borrar este libro?</h1>
+	        </div>
+
+	        <div class="container">
+			    <div class="row">
+			        <div class="col-25">
+			            <label for="id">ISBN - ISSN</label>
+			        </div>
+			        <div class="col-75">
+			            <input type="text" id="id" name="id" readonly>
+			        </div>
+			    </div>
+			    <div class="row">
+			        <div class="col-25">
+			            <label for="titulo">Titulo</label>
+			        </div>
+			        <div class="col-75">
+			            <input type="text" id="titulo" name="titulo" readonly>
+			        </div>
+			    </div>
+			    <div class="row">
+			        <div class="col-25">
+			            <label for="editorial">Editorial</label>
+			        </div>
+			    	<div class="col-75">
+			        	<input type="text" id="editorial" name="editorial" readonly>
+			    	</div>
+				</div>
+			    <div class="row">
+			        <div class="col-25">
+			            <label for="deposito">Depósito</label>
+			        </div>
+			        <div class="col-75">
+			            <input type="text" id="deposito" name="deposito" readonly>
+			        </div>
+			    </div>
+			    <div align="right" style="margin-top: 10px;">
+		    		<button type="button" class="btn btn-danger" data-dismiss="modal">Borrar</button>	
+		    	</div>
+		    </div>
+        </div>
+
+        <div id="ele-0" name="ele-0" style="display: none;">
+        	<div class="container">
+        		<div align="center">
+        			<div class="alert alert-danger">
+					  <strong> El libro que intenta buscar no se encuentra en la Base de Datos</strong>
+					</div>
+        		</div>
+        	</div>
+        </div>
+
         <div class="container">
         	<!--
 				Dejo otro button para enseñar lo que el usuario veria al encontrar el libro
-			-->
+			
         	<button class="btn btn-success" type="submit" data-toggle="modal" data-target="#myModal">Prueba resutado busqueda</button>
+        	-->
 		  <!-- The Modal -->
 		  <div class="modal fade" id="myModal">
 		    <div class="modal-dialog modal-dialog-centered">
