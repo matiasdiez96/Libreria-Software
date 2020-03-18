@@ -100,7 +100,7 @@ ALTA, BAJA Y MANTENIMIENTO DE LIBROS
     <body style="background-color:#dfdcdd;">
         <div class="menu" style="margin-top: 10px;">
             <a class="navbar-brand" href="layout.php">
-              <img src="imagenes/Universidad Nacional de La Pampa.png" alt="logo">
+              <img src="{{ asset('storage/UNLPam.png') }}" alt="logo">
             </a>
         </div>
         <div class="menu">
