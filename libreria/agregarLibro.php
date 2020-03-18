@@ -1,17 +1,15 @@
-<?php
-    include("layout.php");
-?>
+@include('layout')
 
 <div class="titulo">
             <h1>Agregar libro</h1>
-            <img src="imagenes/book-plus.png" alt="logo">
+            <img src="{{ asset ('storage/book-plus.png') }}" alt="logo">
         </div>
         <form>
             <div class="container">
                 <!--
                     Ingreso provisorio de los posibles datos necesarios para agregar un libro
                 -->
-                <form action="/action_page.php">
+               
                 <div class="row">
                   <div class="col-25">
                     <label for="id">ISBN - ISSN</label>
@@ -28,34 +26,6 @@
                     <input type="text" id="titulo" name="titulo" placeholder="Título del libro..">
                   </div>
                 </div>
-                <!--
-                <div class="row">
-                  <div class="col-25">
-                    <label for="ed">Ed</label>
-                  </div>
-                  <div class="col-75">
-                    <select id="ed" name="ed">
-                      <option value="">VM</option>
-                      <option value="">LP</option>
-                      <option value="">FEP</option>
-                      <option value="">UNS</option>
-                      <option value="">R.IV</option>
-                      <option value="">ER</option>
-                      <option value="">Ros</option>
-                      <option value="">SM</option>
-                      <option value="">Cuy</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-25">
-                    <label for="auto">Autor</label>
-                  </div>
-                  <div class="col-75">
-                    <input type="text" id="autor" name="autor" placeholder="Autor del libro..">
-                  </div>
-                </div>
-            	-->
                 <div class="row">
                   <div class="col-25">
                     <label for="editorial">Editorial</label>
