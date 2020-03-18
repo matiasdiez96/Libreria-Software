@@ -1,9 +1,8 @@
-<?php
-    include("layout.php");
-?>
+@include('layout')
+
 	<div class="titulo">
         <h1>Nueva venta</h1>
-        <img src="imagenes/book-account.png" alt="logo">
+        <img src="{{ asset ('storage/book-account.png') }}" alt="logo">
     </div>
 	<div class="container">
 		<div class="container p-0 m-0">
@@ -77,7 +76,7 @@
 	  		</div>
   		</div>
   		<div align="right" style="margin-top: 10px;">
-            <input type="submit" value="Continuar" style="background: #e86a04;" >
+            <input type="submit" value="Confirmar venta" style="background: #e86a04;" >
         </div>
         <br><br>
 	</div>
