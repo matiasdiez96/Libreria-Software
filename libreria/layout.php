@@ -115,9 +115,9 @@ ALTA, BAJA Y MANTENIMIENTO DE LIBROS
                         Libros
                       </a>
                       <div class="dropdown-menu">
-                        <a class="dropdown-item" href="agregarLibro.php">Agregar libro</a>
-                        <a class="dropdown-item" href="eliminarLibro.php">Borrar libro</a>
-                        <a class="dropdown-item" href="modificarLibro.php">Modificar libro</a>
+                        <a class="dropdown-item" href="{{url('/agregarLibro')}}">Agregar libro</a>
+                        <a class="dropdown-item" href="{{url('/eliminarLibro')}}">Borrar libro</a>
+                        <a class="dropdown-item" href="{{url('/modificarLibro')}}">Modificar libro</a>
                       </div>
                     </li>
                     
@@ -130,7 +130,7 @@ ALTA, BAJA Y MANTENIMIENTO DE LIBROS
                         <a class="dropdown-item" href="#">Mensuales</a>
                         <a class="dropdown-item" href="#">Anuales</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="AltaVentas.php">Confirmar venta</a>
+                        <a class="dropdown-item" href="{{url('/altaVentas')}}">Confirmar venta</a>
                         <a class="dropdown-item" href="#">Cancelar venta</a>
                         <a class="dropdown-item" href="#">Modificar venta</a>
                       </div>
